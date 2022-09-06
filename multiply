@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n,a,b;
+
+    cout << "Enter a positive integer: ";
+    cin >> n;
+    cout<< "enter a postive integer:";
+    cin >> a;
+    cout<< "enter a postive integer:";
+    cin >> b;
+
+    for (int i = 1; i <= 10; ++i) 
+	{
+        cout << n << " * " << i << " = " << n * i << endl;
+    }
+    for(int i=1;i<=10;++i)
+	{
+		cout << a << " x " << i << " = " << a * i << endl;
+	}
+	for(int i=1;i<=10;i++)
+	{
+		cout << b << " x " << i << " = " << b * i << endl;
+	}
+    
+    return 0;
+}
