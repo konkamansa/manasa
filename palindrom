@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,a,b,c;
+    cout<<"enter a number";
+    cin>>n;  
+    cout<<"enter digit at one's place";
+    cin>>a;
+    cout<<"enter digit at tenth's place";
+    cin>>b;
+    cout<<"enter digit at hundred's place";
+    cin>>c;
+    n=((c*100)+(b*10)+(a*1));  
+    if(n=((a*100)+(b*10)+(c*1)))
+     {
+	     cout<<"palindrom";
+     }
+    else 
+     {
+	    cout<<"not a palindrom";
+     }   
+    return 0;
+}
