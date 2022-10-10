@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int cel,far;
+	cout<<"enter temp in celsius:";
+	cin>>cel;
+	far=(cel*9/5)+32;
+	cout<<"temp in fahrenhiet is:"<<far;
+	return 0;
+}
