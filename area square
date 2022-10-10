@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+class areas
+{
+public:	
+	area(int l,int b)
+	{
+		cout<<l*b<<"\n";
+	}
+	area(int s)
+	{
+		cout<<s*s<<"\n";
+	}
+}; 
+int main()
+{
+   areas obj;
+   obj.area(5,4);
+   obj.area(5);
+   return 0;
+}
